@@ -5,7 +5,7 @@
             <h2>Menu do sistema</h2>
             <ul>
                 <li>
-                    <a href="Relatorio/Relatorio.aspx">Relatório WebForms / DataTable</a>
+                    <a href="../Relatorio/Relatorio.aspx">Relatório WebForms / DataTable</a>
                 </li>
             </ul>            
             <div class="msg"><b>OBS:</b> Não foi criado para testar Front End, caso tenha chegado aqui por acaso, aprecie apenas o objetivo do sistema</div>
