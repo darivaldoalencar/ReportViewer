@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetFuncionario" targetNamespace="http://tempuri.org/DataSetFuncionario.xsd" xmlns:mstns="http://tempuri.org/DataSetFuncionario.xsd" xmlns="http://tempuri.org/DataSetFuncionario.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetFuncionario" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetFuncionario" msprop:Generator_UserDSName="DataSetFuncionario">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Funcionario" msprop:Generator_TableClassName="FuncionarioDataTable" msprop:Generator_TableVarName="tableFuncionario" msprop:Generator_RowChangedName="FuncionarioRowChanged" msprop:Generator_TablePropName="Funcionario" msprop:Generator_RowDeletingName="FuncionarioRowDeleting" msprop:Generator_RowChangingName="FuncionarioRowChanging" msprop:Generator_RowEvHandlerName="FuncionarioRowChangeEventHandler" msprop:Generator_RowDeletedName="FuncionarioRowDeleted" msprop:Generator_RowClassName="FuncionarioRow" msprop:Generator_UserTableName="Funcionario" msprop:Generator_RowEvArgName="FuncionarioRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="nome" msprop:Generator_ColumnVarNameInTable="columnnome" msprop:Generator_ColumnPropNameInRow="nome" msprop:Generator_ColumnPropNameInTable="nomeColumn" msprop:Generator_UserColumnName="nome" type="xs:string" minOccurs="0" />
+              <xs:element name="endereco" msprop:Generator_ColumnVarNameInTable="columnendereco" msprop:Generator_ColumnPropNameInRow="endereco" msprop:Generator_ColumnPropNameInTable="enderecoColumn" msprop:Generator_UserColumnName="endereco" type="xs:string" minOccurs="0" />
+              <xs:element name="nr_compra" msprop:Generator_ColumnVarNameInTable="columnnr_compra" msprop:Generator_ColumnPropNameInRow="nr_compra" msprop:Generator_ColumnPropNameInTable="nr_compraColumn" msprop:Generator_UserColumnName="nr_compra" type="xs:int" minOccurs="0" />
+              <xs:element name="desc_compra" msprop:Generator_ColumnVarNameInTable="columndesc_compra" msprop:Generator_ColumnPropNameInRow="desc_compra" msprop:Generator_ColumnPropNameInTable="desc_compraColumn" msprop:Generator_UserColumnName="desc_compra" type="xs:string" minOccurs="0" />
+              <xs:element name="vlr_compra" msprop:Generator_ColumnVarNameInTable="columnvlr_compra" msprop:Generator_ColumnPropNameInRow="vlr_compra" msprop:Generator_ColumnPropNameInTable="vlr_compraColumn" msprop:Generator_UserColumnName="vlr_compra" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
