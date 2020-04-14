@@ -26,7 +26,7 @@ namespace PrReportViewer.Relatorio
                 for (int i = 1; i <= 100; i++)
                 {
                     //Gerar um número aleatório para não ter a mesma quantidade de item para todos
-                    int randNum = new Random().Next(5);                    
+                    int randNum = new Random().Next(5);
 
                     for (int x = 1; x <= randNum; x++)
                     {
